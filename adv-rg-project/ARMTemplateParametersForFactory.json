@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adv-rg-project"
+		},
+		"Connection to data lake_accountKey": {
+			"value": ""
+		},
+		"Connection to data lake_properties_typeProperties_url": {
+			"value": "https://advwrksdatalake01.dfs.core.windows.net/"
+		},
+		"GitConnection_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		}
+	}
+}
