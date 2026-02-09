@@ -1,0 +1,9 @@
+{
+	"name": "adv-rg-project",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "428333b6-346a-4bd0-ad28-c7fa4cc0e015",
+		"tenantId": "f7004773-e5af-445e-bdb1-5367e8d4372a"
+	}
+}
