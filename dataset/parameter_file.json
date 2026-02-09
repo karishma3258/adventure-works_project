@@ -1,0 +1,29 @@
+{
+	"name": "parameter_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Connection to data lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "parameter.json",
+				"fileSystem": "parameter"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"folder_name": {
+					"type": "string"
+				},
+				"file_name": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
